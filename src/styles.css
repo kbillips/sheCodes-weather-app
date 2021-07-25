@@ -1,0 +1,65 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #1e406d;
+}
+.card-body {
+  padding: 20px 10px 30px 30px;
+  background-color: #fceded;
+}
+.currentEmoji {
+  font-size: 60px;
+}
+.currentTemp {
+  font-size: 70px;
+  font-weight: bolder;
+  color: #1e406d;
+}
+.farenheit {
+  font-size: 20px;
+  font-weight: bold;
+}
+.divider {
+  font-size: 20px;
+}
+.form-outline {
+  width: 190px;
+}
+.form-control {
+  display: inline-block;
+}
+.currentLocation {
+  text-align: right;
+  padding: 20px 45px 0 0;
+}
+.forecast {
+  padding: 25px 5px;
+  transition: 300ms all ease-in-out;
+}
+.today {
+  background-color: #ffcbcb;
+  border-radius: 100px;
+}
+.town {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Sacramento", cursive;
+  color: #1e406d;
+}
+.forecastTemp {
+  font-size: 10px;
+}
+
+.lookup {
+  padding: 0 45px 0 0;
+}
+.forecastWeather {
+  font-size: 30px;
+}
+.day {
+  font-family: "Sacramento", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}

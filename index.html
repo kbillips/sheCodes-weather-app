@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card" style="width: 30rem; height: 20rem;">
+        <div class="card-body">
+          <form id="search">
+            <input
+              id="search-input"
+              type="text"
+              placeholder="Enter city name"
+              autofocus="on"
+            />
+            <input type="submit" value="Search" />
+          </form>
+          <div class="row currentWeatherArea">
+            <div class="col-6 current"
+          </div>
+          <span class="current">
+            <span class="currentEmoji">☀️</span>
+            <span class="currentTemp">89ºF</span>
+          </span>
+        </div>
+        <div class="col-6 currentLocation">
+          <span class="town">Bellefonte</span>
+          <div class="dateTime">Tuesday 3:00 PM</div>
+          <div class="currentWeather">Sunny</div>
+        </div>
+        <br />
+        <div class="row forecastWeek text-center">
+          <div class="col-2 forecast today">
+            <div class="day">Tue</div>
+            <div class="forecastWeather">⛅️</div>
+            <div class="forecastTemp"><strong>89º</strong> / 72º</div>
+          </div>
+          <div class="col-2 forecast">
+            <div class="day">Wed</div>
+            <div class="forecastWeather">🌧</div>
+            <div class="forecastTemp"><strong>86º</strong> / 63º</div>
+          </div>
+          <div class="col-2 forecast">
+            <div class="day">Thurs</div>
+            <div class="forecastWeather">🌦</div>
+            <div class="forecastTemp"><strong>84º</strong> / 64º</div>
+          </div>
+          <div class="col-2 forecast">
+            <div class="day">Fri</div>
+            <div class="forecastWeather">🌥</div>
+            <div class="forecastTemp"><strong>84º</strong> / 64º</div>
+          </div>
+          <div class="col-2 forecast">
+            <div class="day">Sat</div>
+            <div class="forecastWeather">🌤</div>
+            <div class="forecastTemp"><strong>87º</strong> / 70º</div>
+          </div>
+          <div class="col-2 forecast">
+            <div class="day">Sun</div>
+            <div class="forecastWeather">🌧</div>
+            <div class="forecastTemp"><strong>89º</strong> / 72º</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
